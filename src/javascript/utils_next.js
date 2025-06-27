@@ -31,7 +31,7 @@ import "pako";
 import MersenneTwister from "mersenne-twister";
 
 export const Map =
-  '{"Actual":{"N":{"alphabet":{"a":"人","b":"镜","c":"鹏","d":"曲","e":"霞","f":"绸","g":"裳","h":"路","i":"岩","j":"叶","k":"鲤","l":"月","m":"雪","n":"冰","o":"局","p":"恋","q":"福","r":"铃","s":"琴","t":"家","u":"天","v":"韵","w":"书","x":"莺","y":"璃","z":"雨","A":"文","B":"涧","C":"水","D":"花","E":"风","F":"棋","G":"楼","H":"鹤","I":"鸢","J":"灯","K":"雁","L":"星","M":"声","N":"树","O":"茶","P":"竹","Q":"兰","R":"苗","S":"心","T":"语","U":"礼","V":"梦","W":"庭","X":"木","Y":"驿","Z":"火"},"numbersymbol":{"0":"森","1":"夏","2":"光","3":"林","4":"物","5":"云","6":"夜","7":"城","8":"春","9":"空","+":"雀","/":"鹂","=":"鸳"}},"V":{"alphabet":{"a":"关","b":"赴","c":"呈","d":"添","e":"停","f":"成","g":"走","h":"达","i":"行","j":"称","k":"见","l":"学","m":"听","n":"买","o":"作","p":"弹","q":"写","r":"定","s":"谈","t":"动","u":"旅","v":"返","w":"度","x":"开","y":"筑","z":"选","A":"流","B":"指","C":"换","D":"探","E":"放","F":"看","G":"报","H":"事","I":"泊","J":"现","K":"迸","L":"彰","M":"需","N":"飞","O":"游","P":"求","Q":"御","R":"航","S":"歌","T":"读","U":"振","V":"登","W":"任","X":"留","Y":"奏","Z":"连"},"numbersymbol":{"0":"知","1":"至","2":"致","3":"去","4":"画","5":"说","6":"进","7":"信","8":"取","9":"问","+":"笑","/":"视","=":"言"}},"MV":["欲","应","可","能","将","请","想","必","当"],"A":{"alphabet":{"a":"莹","b":"畅","c":"新","d":"高","e":"静","f":"美","g":"绿","h":"佳","i":"善","j":"良","k":"瀚","l":"明","m":"早","n":"宏","o":"青","p":"遥","q":"速","r":"慧","s":"绚","t":"绮","u":"寒","v":"冷","w":"银","x":"灵","y":"绣","z":"北","A":"临","B":"南","C":"俊","D":"捷","E":"骏","F":"益","G":"雅","H":"舒","I":"智","J":"谜","K":"彩","L":"余","M":"短","N":"秋","O":"乐","P":"怡","Q":"瑞","R":"惠","S":"和","T":"纯","U":"悦","V":"迷","W":"长","X":"少","Y":"近","Z":"清"},"numbersymbol":{"0":"远","1":"极","2":"安","3":"聪","4":"秀","5":"旧","6":"浩","7":"盈","8":"快","9":"悠","+":"后","/":"轻","=":"坚"}},"AD":{"alphabet":{"a":"诚","b":"畅","c":"新","d":"高","e":"静","f":"恒","g":"愈","h":"谨","i":"善","j":"良","k":"频","l":"笃","m":"早","n":"湛","o":"昭","p":"遥","q":"速","r":"朗","s":"祗","t":"攸","u":"徐","v":"咸","w":"皆","x":"灵","y":"恭","z":"弥","A":"临","B":"允","C":"公","D":"捷","E":"淳","F":"益","G":"雅","H":"舒","I":"嘉","J":"勤","K":"协","L":"永","M":"短","N":"歆","O":"乐","P":"怡","Q":"已","R":"忻","S":"和","T":"谧","U":"悦","V":"稍","W":"长","X":"少","Y":"近","Z":"尚"},"numbersymbol":{"0":"远","1":"极","2":"安","3":"竟","4":"悉","5":"渐","6":"颇","7":"辄","8":"快","9":"悠","+":"后","/":"轻","=":"曾"}}},"Virtual":{"zhi":["之"],"hu":["乎"],"zhe":["者"],"ye":["也"],"for":["为"],"ba":["把"],"le":["了"],"er":["而"],"this":["此","斯"],"still":["仍"],"with":["与","同"],"also":["亦","也"],"is":["是","乃"],"not":["未","莫"],"or":["或"],"more":["更"],"make":["使","将","让"],"and":["与","同"],"anti":["非","不"],"why":["为何","奈何","何哉"],"but":["但","却","则","而","况","且"],"like":["似","如","若"],"if":["若","倘"],"int":["哉","呼","噫"],"self":["自"],"by":["以","于"]},"Sentences":{"Begin":["1D/非/N/ye","1B/N/曰/R","1B/若夫/N","1C/anti/MV/V/ye/P","2B/A/N/曰/R","2B/N/以/A","2C/N/anti/在/A","2C/N/make/N/zhi","2C/MV/N/zhe/A","2E/有/N/则/A","2C/V/zhe/V/zhi","2D/but/MV/A/zhe/A","3C/N/V/by/N","3B/初，/N/V/by/N","3B/夫/N/anti/V/by/N","3B/AD/V/zhi/谓/A","3B/V/而/V/zhi/zhi/谓/A","3B/N/，/N/zhi/N/ye/P","3D/A/之/V/者/必/有/N/P","4D/非/N/不/A/，/V/不/A","4C/A/N/AD/V","4C/V/N/以/V/N","4E/N/不在/A/，/有/N/则/A/P","4D/A/N/常有/，/而/A/N/不常有/P","4D/V/N/者/，/N/之/N/也/P","4E/N/有/MV/V/，/N/有/AD/然/P","4D/N/无/N/，/无以/V/N","4D/V/之/不/为/N/，/V/之/不/为/N/P","5D/V/N/而/V/A/，/V/zhi/道/ye/P","5E/N/zhi/V/V/，/实为/A/A/P","5C/本/MV/V/A/，/anti/V/N/N","5C/N/之/无/N/，/N/V/之/N","5D/V/N/而/V/之/者/，/非/其/N/AD/也/P","5B/今/V/N/以/V/A/N","5B/N/乃/V/V/N/zhi/N","5B/今/N/乃/A/N/A/N","5C/A/N/V/A/N","5B/夫/N/、/N/不/MV/AD/V/N","5D/不/有/A/N/，/何/V/A/N/Q","5D/以/A/N/为/N/者/，/N/MV/弗/而/V/之/P","6B/以/N/V/，/like/V/N/V/N","6B/A/N/zhi/N/，/V/zhi/以/V/其/N","6B/A/N/V/于/N/而/V/N","6B/A/N/未/V/N/、/N/之/N","6D/不/V/N/，/不/V/N/，/当/以/AD/V/论/P","6D/A/则为/V/N/，/A/则为/V/N/P","6D/若/居/A/N/之/N/，/则/当/A/N/之/V/P","6D/N/无/N/则/V/，/N/无/N/则/V/P","7D/夫/A/之/N/V/N/者/，/其/所以/AD/V/者/N/也/P","6D/A/者/V/而/V/之/，/A/者/V/而/V/之/P","6D/N/受/命/于/N/，/固/AD/然/V/于/A/N/P","7C/N/以/A/A/，/AD/V/A/N","7B/V/N/A/，/A/N/V/N","7B/N/V/以/N/V/，/V/不/V/N","7C/N/N/V/N/，/A/于/N/N","7D/MV/AD/V/A/N/，/but/V/V/不/A","7C/或/V/N/V/N/，/V/N/于/N","7E/则有/N/A/N/A/，/N/N/具/V","7D/V/A/N/zhe/，/常/V/其/所/A/，/而/V/其/所/A/P","7D/A/N/之/N/，/常/V/于/其/所/AD/V/而/不/V/之/处/P","7D/A/N/之/N/不在/N/，/在乎/A/N/之/N/也/P","8D/V/A/N/，/V/A/N/，/by/MV/A/zhi/N/P","8D/N/anti/AD/V/zhe/by/AD/V/zhe/V/，/anti/MV/AD/V/P","8D/N/anti/MV/V/N/，/still/继/N/V/，/why/，/and/N/而/anti/V/N/ye/P","8C/V/N/A/A/，/V/N/A/A","8C/N/V/A/N/，/N/V/A/N","8C/N/在/A/N/，/A/N/zhi/A/，/V/于/N/P","8C/A/N/AD/V/，/N/N/AD/V","8C/A/N/V/N/，/N/N/V/N/P","8B/尝/V/A/N/，/AD/V/A/N/zhi/N","8D/予/V/夫/A/N/A/N/，/在/A/N/之/N","8D/N/V/于/A/N/，/而/N/V/于/A/N","8D/虽/无/N/N/zhi/V/，/亦/V/以/AD/V/A/N/P","8D/A/N/之/A/N/，/常/为/A/N/之/A/N/P","9D/A/N/V/zhi/而不/V/zhi/、亦/make/A/N/er/复/V/A/N/ye/P","9D/N/MV/V/N/V/V/，/but/N/N/AD/V/P","9B/以/N/，/当/V/A/N/，/非/N/V/N/所/MV/AD/V/P","9C/此/N/有/A/N/A/N/，/A/N/A/N/P","9D/是/N/ye/，/N/A/N/A/，/N/A/N/A/P"],"Main":["1B/非/N/ye","1B/N/曰/R","1C/anti/MV/V/ye","2C/N/make/N/zhi","2C/MV/N/zhe/A","2E/有/N/则/A","2C/V/zhe/V/zhi","2C/but/MV/A/zhe/A","3C/N/with/N/V","3B/N/曰，何/A/zhi/V/Q","4C/A/N/AD/V","4C/V/N/以/V/N","4D/N/无/N/，/无以/V/N/P","4D/V/N/者/，/N/之/N/也/P","4E/N/不在/A/，/有/N/则/A/P","4C/N/有/MV/V/，/N/有/AD/然/P","4D/N/非/V/而/V/之/者/，/孰/MV/无/N/P","4D/A/N/常有/，/而/A/N/不常有/P","4C/不/以/N/V/，/不/以/N/V/P","4D/V/之/不/为/N/，/V/之/不/为/N/P","5B/今/V/N/以/V/A/N","5B/N/乃/V/V/N/zhi/N","5C/本/MV/V/A/，/anti/V/N/N","5D/V/N/而/V/之/者/，/非/其/N/AD/也/P","5D/以/A/N/为/N/者/，/N/MV/弗/而/V/之/P","5D/故/夫/A/N/之/N/，/不/可/make/其/V/于/N/也/P","5B/今/N/乃/A/N/A/N","5E/每/有/V/N/，/便/AD/然/V/N/P","5D/N/V/而/A/N/V/也","5E/不/有/A/N/，/何/V/A/N/Q","5C/N/之/无/N/，/N/V/之/N","6D/N/A/N/A/，/则/所/V/得/其/A/P","6B/以/N/V/，/like/V/N/V/N","6C/N/V/，/V/N/V/N","6E/虽/V/V/A/A/，/A/A/不/同/P","6D/而/A/N/zhi/N/，/V/zhi/以/V/其/N/P","6B/A/N/V/于/N/而/V/N","6B/A/N/未/V/N/、/N/之/N","6C/V/A/N/，/V/A/N","6D/V/MV/with/其/N/，/而/V/MV/V/以/N/者/，/N/也/P","6D/A/N/必/有/A/N/V/之者/、/予/可/无/N/也/P","6D/将/有/V/，/则/V/A/N/以/V/N/P","6D/不/V/N/，/不/V/N/，/当/以/AD/V/论/P","6D/A/则为/V/N/，/A/则为/V/N/P","6D/N/无/N/则/V/，/N/无/N/则/V/P","6D/A/者/V/而/V/之/，/A/者/V/而/V/之/P","6D/若/居/A/N/之/N/，/则/当/A/N/之/V/P","6D/N/受/命/于/N/，/固/AD/然/V/于/A/N/P","7D/夫/A/之/N/V/N/者/，/其/所以/AD/V/者/N/也/P","7B/N/V/以/N/V/，/V/不/V/N","7C/N/N/V/N/，/A/于/N/N","7D/MV/AD/V/A/N/，/but/V/V/不/A","7C/或/V/N/V/N/，/V/N/于/N","7D/V/A/N/zhe/，/常/V/其/所/A/，/而/V/其/所/A/P","7D/A/N/之/不/V/也/AD/矣/，/欲/N/之/无/N/也/AD/矣/P","7D/A/N/之/N/，/常/V/于/其/所/AD/V/而/不/V/之/处/P","7D/A/N/之/N/不在/N/，/在乎/A/N/之/N/也/P","7D/A/N/之/N/，/V/之/N/而/V/之/N/也/P","7D/是故/A/N/不必不如/N/，/N/不必/A/于/A/N/P","7B/有/A/N/、/A/N/、/A/N/之/N/P","8D/N/anti/MV/V/N/，/still/继/N/V/，/why/，/and/N/而/anti/V/N/ye/P","8E/是/故/无/A/无/A/，/无/A/无/A/，/N/之/所/V/、/N/之/所/V/ye/P","8C/V/N/A/A/，/V/N/A/A","8B/N/在/A/N/，/A/N/zhi/A/，/V/于/N/P","8B/like/A/N/V/N/，/不/V/N/V/之/N/P","8C/A/N/AD/V/，/N/N/AD/V","8D/A/N/之/A/N/，/常/为/A/N/之/A/N/P","8C/A/N/V/N/，/N/N/V/N/P","8D/虽/无/N/N/zhi/V/，/亦/V/以/AD/V/A/N/P","8D/予/V/夫/A/N/A/N/，/在/A/N/之/N","8D/故/V/A/N/者/，/当/V/A/N/之/A/N/P","8D/N/V/于/A/N/，/而/N/V/于/A/N","8B/A/N/MV/A/N/之/A/，/V/N/中/之/A","8D/N/V/于/A/N/之上/，/AD/V/于/A/N/之间/P","8B/使/其/A/N/AD/V/，/A/N/AD/V/P","9B/N/MV/V/N/V/V/，/but/N/N/AD/V","9D/A/N/V/zhi/而不/V/zhi/、亦/make/A/N/er/复/V/A/N/ye/P","9D/以/N/，/当/V/A/N/，/非/N/V/N/所/MV/AD/V/P","9C/此/N/有/A/N/A/N/，/A/N/A/N/P","9E/是/N/ye/，/N/A/N/A/，/N/A/N/A","9E/V/A/N/，/N/A/N/A/，/乃/AD/V"],"End":["1B/非/N/ye","1C/anti/MV/V/ye","2C/唯/N/V/zhi","2B/V/by/N","2D/其/also/A/hu/其/V/ye/P","2C/N/make/N/zhi","2C/MV/N/zhe/A","2E/有/N/则/A","2C/V/zhe/V/zhi","2C/but/MV/A/zhe/A","3C/V/在/A/N","3D/今/zhi/V/zhe/，/亦将有/V/于/this/N/P","3D/某也/A/，/某也/A/，/可/不/A/哉","4B/V/N/zhi/N/by/N","4C/A/N/AD/V","4C/V/N/以/V/N","4D/N/无/N/，/无以/V/N","4D/V/N/者/，/N/之/N/也/P","4D/噫/，/A/N/ye/，/N/谁/与/V/Q","4C/不/以/N/V/，/不/以/N/V/P","4D/V/之/不/为/N/，/V/之/不/为/N/P","5B/请/V/N/zhi/N/中/，/是/N/zhi/N/P","5D/今/V/N/以/V/A/N","5B/N/乃/V/V/N/zhi/N","5C/本/MV/V/A/，/anti/V/N/N","5D/V/N/而/V/之/者/，/非/其/N/AD/也/P","5D/以/A/N/为/N/者/，/N/MV/弗/而/V/之/P","5D/故/夫/A/N/之/N/，/不/可/make/其/V/于/N/也/P","5B/今/N/乃/A/N/A/N","5D/N/V/而/A/N/V/也","5E/不/有/A/N/，/何/V/A/N/Q","5C/N/之/无/N/，/N/V/之/N","6D/以/N/V/，/like/V/N/V/N","6D/A/zhi/V/N/，/亦/like/今/zhi/V/N/，/A/夫/P","6D/A/者/V/而/V/之/，/A/者/V/而/V/之/P","6D/若/居/A/N/之/N/，/则/当/A/N/之/V/P","6B/N/V/，/V/N/V/N","6E/V/N/之/N/，/为/N/V/者/，/可以/V/矣/P","6D/V/MV/with/其/N/，/而/V/MV/V/以/N/者/，/N/也/P","6D/A/N/必/有/A/N/V/之者/、/予/可/无/N/也/P","6E/虽/V/V/A/A/，/A/A/不/同/P","6D/将/有/V/，/则/V/A/N/以/V/N/P","6D/不/V/N/，/不/V/N/，/当/以/AD/V/论/P","6D/A/则为/V/N/，/A/则为/V/N/P","6D/N/受/命/于/N/，/固/AD/然/V/于/A/N/P","6D/N/无/N/则/V/，/N/无/N/则/V/P","6D/N/A/N/A/，/则/所/V/得/其/A/P","7D/夫/A/之/N/V/N/者/，/其/所以/AD/V/者/N/也/P","7D/N/V/以/N/V/，/V/不/V/N","7C/N/N/V/N/，/A/于/N/N","7D/MV/AD/V/A/N/，/but/V/V/不/A","7E/或/V/N/V/N/，/V/N/于/N","7D/A/N/之/N/不在/N/，/在乎/A/N/之/N/也/P","7D/A/N/之/N/，/V/之/N/而/V/之/N/也/P","7D/是故/A/N/不必不如/N/，/N/不必/A/于/A/N/P","7B/有/A/N/、/A/N/、/A/N/之/N/P","8E/虽/N/A/N/A/，/所/以/V/N/，其/N/A/ye/P","8B/like/A/N/V/N/，/不/V/N/V/之/N/P","8D/何必/V/N/V/N/，/V/N/zhi/N/N/哉/P","8D/N/anti/MV/V/N/，/still/继/N/V/，/why/，/and/N/而/anti/V/N/ye/P","8C/V/N/A/A/，/V/N/A/A","8B/N/在/A/N/，/A/N/zhi/A/，/V/于/N/P","8C/A/N/AD/V/，/N/N/AD/V","8D/虽/无/N/N/zhi/V/，/亦/V/以/AD/V/A/N/P","8D/故/V/A/N/者/，/当/V/A/N/之/A/N/P","8D/N/V/于/A/N/之上/，/AD/V/于/A/N/之间/P","8C/使/其/A/N/AD/V/，/A/N/AD/V/P","9D/A/N/V/zhi/而不/V/zhi/、亦/make/A/N/er/复/V/A/N/ye/P","9B/N/MV/V/N/V/V/，/but/N/N/AD/V","9D/以/N/，/当/V/A/N/，/非/N/V/N/所/MV/AD/V/P","9C/此/N/有/A/N/A/N/，/A/N/A/N/P","9B/是/N/ye/，/N/A/N/A/，/N/A/N/A/P"]}}';
+  '{"Actual":{"N":{"alphabet":{"a":"人","b":"镜","c":"鹏","d":"曲","e":"霞","f":"绸","g":"裳","h":"路","i":"岩","j":"叶","k":"鲤","l":"月","m":"雪","n":"冰","o":"局","p":"恋","q":"福","r":"铃","s":"琴","t":"家","u":"天","v":"韵","w":"书","x":"莺","y":"璃","z":"雨","A":"文","B":"涧","C":"水","D":"花","E":"风","F":"棋","G":"楼","H":"鹤","I":"鸢","J":"灯","K":"雁","L":"星","M":"声","N":"树","O":"茶","P":"竹","Q":"兰","R":"苗","S":"心","T":"语","U":"礼","V":"梦","W":"庭","X":"木","Y":"驿","Z":"火"},"numbersymbol":{"0":"森","1":"夏","2":"光","3":"林","4":"物","5":"云","6":"夜","7":"城","8":"春","9":"空","+":"雀","/":"鹂","=":"鸳"}},"V":{"alphabet":{"a":"关","b":"赴","c":"呈","d":"添","e":"停","f":"成","g":"走","h":"达","i":"行","j":"称","k":"见","l":"学","m":"听","n":"买","o":"作","p":"弹","q":"写","r":"定","s":"谈","t":"动","u":"旅","v":"返","w":"度","x":"开","y":"筑","z":"选","A":"流","B":"指","C":"换","D":"探","E":"放","F":"看","G":"报","H":"事","I":"泊","J":"现","K":"迸","L":"彰","M":"需","N":"飞","O":"游","P":"求","Q":"御","R":"航","S":"歌","T":"读","U":"振","V":"登","W":"任","X":"留","Y":"奏","Z":"连"},"numbersymbol":{"0":"知","1":"至","2":"致","3":"去","4":"画","5":"说","6":"进","7":"信","8":"取","9":"问","+":"笑","/":"视","=":"言"}},"MV":["欲","应","可","能","将","请","想","必","当"],"A":{"alphabet":{"a":"莹","b":"畅","c":"新","d":"高","e":"静","f":"美","g":"绿","h":"佳","i":"善","j":"良","k":"瀚","l":"明","m":"早","n":"宏","o":"青","p":"遥","q":"速","r":"慧","s":"绚","t":"绮","u":"寒","v":"冷","w":"银","x":"灵","y":"绣","z":"北","A":"临","B":"南","C":"俊","D":"捷","E":"骏","F":"益","G":"雅","H":"舒","I":"智","J":"谜","K":"彩","L":"余","M":"短","N":"秋","O":"乐","P":"怡","Q":"瑞","R":"惠","S":"和","T":"纯","U":"悦","V":"迷","W":"长","X":"少","Y":"近","Z":"清"},"numbersymbol":{"0":"远","1":"极","2":"安","3":"聪","4":"秀","5":"旧","6":"浩","7":"盈","8":"快","9":"悠","+":"后","/":"轻","=":"坚"}},"AD":{"alphabet":{"a":"诚","b":"畅","c":"新","d":"高","e":"静","f":"恒","g":"愈","h":"谨","i":"善","j":"良","k":"频","l":"笃","m":"早","n":"湛","o":"昭","p":"遥","q":"速","r":"朗","s":"祗","t":"攸","u":"徐","v":"咸","w":"皆","x":"灵","y":"恭","z":"弥","A":"临","B":"允","C":"公","D":"捷","E":"淳","F":"益","G":"雅","H":"舒","I":"嘉","J":"勤","K":"协","L":"永","M":"短","N":"歆","O":"乐","P":"怡","Q":"已","R":"忻","S":"和","T":"谧","U":"悦","V":"稍","W":"长","X":"少","Y":"近","Z":"尚"},"numbersymbol":{"0":"远","1":"极","2":"安","3":"竟","4":"悉","5":"渐","6":"颇","7":"辄","8":"快","9":"悠","+":"后","/":"轻","=":"曾"}}},"Virtual":{"zhi":["之"],"hu":["乎"],"zhe":["者"],"ye":["也"],"for":["为"],"ba":["把"],"le":["了"],"er":["而"],"this":["此","斯"],"still":["仍"],"with":["与","同"],"also":["亦","也"],"is":["是","乃"],"not":["未","莫"],"or":["或"],"more":["更"],"make":["使","将","让"],"and":["与","同"],"anti":["非","不"],"why":["为何","奈何","何哉"],"but":["但","却","则","而","况","且"],"like":["似","如","若"],"if":["若","倘"],"int":["哉","呼","噫"],"self":["自"],"by":["以","于"]},"Sentences":{"Begin":["1D/非/N/ye","1B/N/曰/R","1B/若夫/N","1C/anti/MV/V/ye/P","2B/A/N/曰/R","2B/N/以/A","2C/N/anti/在/A","2C/N/make/N/zhi","2C/MV/N/zhe/A","2E/有/N/则/A","2C/V/zhe/V/zhi","2D/but/MV/A/zhe/A","3C/N/V/by/N","3B/初，/N/V/by/N","3B/夫/N/anti/V/by/N","3B/AD/V/zhi/谓/A","3B/V/而/V/zhi/zhi/谓/A","3B/N/，/N/zhi/N/ye/P","3D/A/之/V/者/必/有/N/P","4D/非/N/不/A/，/V/不/A","4C/A/N/AD/V","4C/V/N/以/V/N","4E/N/不在/A/，/有/N/则/A/P","4D/A/N/常有/，/而/A/N/不常有/P","4D/V/N/者/，/N/之/N/也/P","4E/N/有/MV/V/，/N/有/AD/然/P","4D/N/无/N/，/无以/V/N","4D/V/之/不/为/N/，/V/之/不/为/N/P","5D/V/N/而/V/A/，/V/zhi/道/ye/P","5E/N/zhi/V/V/，/实为/A/A/P","5C/本/MV/V/A/，/anti/V/N/N","5C/N/之/无/N/，/N/V/之/N","5D/V/N/而/V/之/者/，/非/其/N/AD/也/P","5B/今/V/N/以/V/A/N","5B/N/乃/V/V/N/zhi/N","5B/今/N/乃/A/N/A/N","5C/A/N/V/A/N","5B/夫/N/、/N/不/MV/AD/V/N","5D/不/有/A/N/，/何/V/A/N/Q","5D/以/A/N/为/N/者/，/N/MV/弗/而/V/之/P","6B/以/N/V/，/like/V/N/V/N","6B/A/N/zhi/N/，/V/zhi/以/V/其/N","6B/A/N/V/于/N/而/V/N","6B/A/N/未/V/N/、/N/之/N","6B/V/A/N/若/V/A/N","6D/不/V/N/，/不/V/N/，/当/以/AD/V/论/P","6D/A/则为/V/N/，/A/则为/V/N/P","6D/若/居/A/N/之/N/，/则/当/A/N/之/V/P","6D/N/无/N/则/V/，/N/无/N/则/V/P","7D/夫/A/之/N/V/N/者/，/其/所以/AD/V/者/N/也/P","6D/A/者/V/而/V/之/，/A/者/V/而/V/之/P","6D/N/受/命/于/N/，/固/AD/然/V/于/A/N/P","7C/N/以/A/A/，/AD/V/A/N","7B/V/N/A/，/A/N/V/N","7B/N/V/以/N/V/，/V/不/V/N","7C/N/N/V/N/，/A/于/N/N","7D/MV/AD/V/A/N/，/but/V/V/不/A","7C/或/V/N/V/N/，/V/N/于/N","7E/则有/N/A/N/A/，/N/N/具/V","7D/V/A/N/zhe/，/常/V/其/所/A/，/而/V/其/所/A/P","7D/A/N/之/N/，/常/V/于/其/所/AD/V/而/不/V/之/处/P","7D/A/N/之/N/不在/N/，/在乎/A/N/之/N/也/P","8D/V/A/N/，/V/A/N/，/by/MV/A/zhi/N/P","8D/N/anti/AD/V/zhe/by/AD/V/zhe/V/，/anti/MV/AD/V/P","8D/N/anti/MV/V/N/，/still/继/N/V/，/why/，/and/N/而/anti/V/N/ye/P","8C/V/N/A/A/，/V/N/A/A","8C/N/V/A/N/，/N/V/A/N","8C/N/在/A/N/，/A/N/zhi/A/，/V/于/N/P","8C/A/N/AD/V/，/N/N/AD/V","8C/A/N/V/N/，/N/N/V/N/P","8B/尝/V/A/N/，/AD/V/A/N/zhi/N","8D/予/V/夫/A/N/A/N/，/在/A/N/之/N","8D/N/V/于/A/N/，/而/N/V/于/A/N","8D/虽/无/N/N/zhi/V/，/亦/V/以/AD/V/A/N/P","8D/A/N/之/A/N/，/常/为/A/N/之/A/N/P","9D/A/N/V/zhi/而不/V/zhi/、亦/make/A/N/er/复/V/A/N/ye/P","9D/N/MV/V/N/V/V/，/but/N/N/AD/V/P","9B/以/N/，/当/V/A/N/，/非/N/V/N/所/MV/AD/V/P","9C/此/N/有/A/N/A/N/，/A/N/A/N/P","9D/是/N/ye/，/N/A/N/A/，/N/A/N/A/P"],"Main":["1B/非/N/ye","1B/N/曰/R","1C/anti/MV/V/ye","2C/N/make/N/zhi","2C/MV/N/zhe/A","2E/有/N/则/A","2C/V/zhe/V/zhi","2C/but/MV/A/zhe/A","3C/N/with/N/V","3B/N/曰，何/A/zhi/V/Q","4C/A/N/AD/V","4C/V/N/以/V/N","4D/N/无/N/，/无以/V/N/P","4D/V/N/者/，/N/之/N/也/P","4E/N/不在/A/，/有/N/则/A/P","4C/N/有/MV/V/，/N/有/AD/然/P","4D/N/非/V/而/V/之/者/，/孰/MV/无/N/P","4D/A/N/常有/，/而/A/N/不常有/P","4C/不/以/N/V/，/不/以/N/V/P","4D/V/之/不/为/N/，/V/之/不/为/N/P","5B/今/V/N/以/V/A/N","5B/N/乃/V/V/N/zhi/N","5C/本/MV/V/A/，/anti/V/N/N","5D/V/N/而/V/之/者/，/非/其/N/AD/也/P","5D/以/A/N/为/N/者/，/N/MV/弗/而/V/之/P","5D/故/夫/A/N/之/N/，/不/可/make/其/V/于/N/也/P","5B/今/N/乃/A/N/A/N","5E/每/有/V/N/，/便/AD/然/V/N/P","5D/N/V/而/A/N/V/也","5E/不/有/A/N/，/何/V/A/N/Q","5C/N/之/无/N/，/N/V/之/N","6D/N/A/N/A/，/则/所/V/得/其/A/P","6B/以/N/V/，/like/V/N/V/N","6B/V/A/N/若/V/A/N","6C/N/V/，/V/N/V/N","6E/虽/V/V/A/A/，/A/A/不/同/P","6D/而/A/N/zhi/N/，/V/zhi/以/V/其/N/P","6B/A/N/V/于/N/而/V/N","6B/A/N/未/V/N/、/N/之/N","6C/V/A/N/，/V/A/N","6D/V/MV/with/其/N/，/而/V/MV/V/以/N/者/，/N/也/P","6D/A/N/必/有/A/N/V/之者/、/予/可/无/N/也/P","6D/将/有/V/，/则/V/A/N/以/V/N/P","6D/不/V/N/，/不/V/N/，/当/以/AD/V/论/P","6D/A/则为/V/N/，/A/则为/V/N/P","6D/N/无/N/则/V/，/N/无/N/则/V/P","6D/A/者/V/而/V/之/，/A/者/V/而/V/之/P","6D/若/居/A/N/之/N/，/则/当/A/N/之/V/P","6D/N/受/命/于/N/，/固/AD/然/V/于/A/N/P","7D/夫/A/之/N/V/N/者/，/其/所以/AD/V/者/N/也/P","7B/N/V/以/N/V/，/V/不/V/N","7C/N/N/V/N/，/A/于/N/N","7D/MV/AD/V/A/N/，/but/V/V/不/A","7C/或/V/N/V/N/，/V/N/于/N","7D/V/A/N/zhe/，/常/V/其/所/A/，/而/V/其/所/A/P","7D/A/N/之/不/V/也/AD/矣/，/欲/N/之/无/N/也/AD/矣/P","7D/A/N/之/N/，/常/V/于/其/所/AD/V/而/不/V/之/处/P","7D/A/N/之/N/不在/N/，/在乎/A/N/之/N/也/P","7D/A/N/之/N/，/V/之/N/而/V/之/N/也/P","7D/是故/A/N/不必不如/N/，/N/不必/A/于/A/N/P","7B/有/A/N/、/A/N/、/A/N/之/N/P","8D/N/anti/MV/V/N/，/still/继/N/V/，/why/，/and/N/而/anti/V/N/ye/P","8E/是/故/无/A/无/A/，/无/A/无/A/，/N/之/所/V/、/N/之/所/V/ye/P","8C/V/N/A/A/，/V/N/A/A","8B/N/在/A/N/，/A/N/zhi/A/，/V/于/N/P","8B/like/A/N/V/N/，/不/V/N/V/之/N/P","8C/A/N/AD/V/，/N/N/AD/V","8D/A/N/之/A/N/，/常/为/A/N/之/A/N/P","8C/A/N/V/N/，/N/N/V/N/P","8D/虽/无/N/N/zhi/V/，/亦/V/以/AD/V/A/N/P","8D/予/V/夫/A/N/A/N/，/在/A/N/之/N","8D/故/V/A/N/者/，/当/V/A/N/之/A/N/P","8D/N/V/于/A/N/，/而/N/V/于/A/N","8B/A/N/MV/A/N/之/A/，/V/N/中/之/A","8D/N/V/于/A/N/之上/，/AD/V/于/A/N/之间/P","8B/使/其/A/N/AD/V/，/A/N/AD/V/P","9B/N/MV/V/N/V/V/，/but/N/N/AD/V","9D/A/N/V/zhi/而不/V/zhi/、亦/make/A/N/er/复/V/A/N/ye/P","9D/以/N/，/当/V/A/N/，/非/N/V/N/所/MV/AD/V/P","9C/此/N/有/A/N/A/N/，/A/N/A/N/P","9E/是/N/ye/，/N/A/N/A/，/N/A/N/A","9E/V/A/N/，/N/A/N/A/，/乃/AD/V"],"End":["1B/非/N/ye","1C/anti/MV/V/ye","2C/唯/N/V/zhi","2B/V/by/N","2D/其/also/A/hu/其/V/ye/P","2C/N/make/N/zhi","2C/MV/N/zhe/A","2E/有/N/则/A","2C/V/zhe/V/zhi","2C/but/MV/A/zhe/A","3C/V/在/A/N","3D/今/zhi/V/zhe/，/亦将有/V/于/this/N/P","3D/某也/A/，/某也/A/，/可/不/A/哉","4B/V/N/zhi/N/by/N","4C/A/N/AD/V","4C/V/N/以/V/N","4D/N/无/N/，/无以/V/N","4D/V/N/者/，/N/之/N/也/P","4D/噫/，/A/N/ye/，/N/谁/与/V/Q","4C/不/以/N/V/，/不/以/N/V/P","4D/V/之/不/为/N/，/V/之/不/为/N/P","5B/请/V/N/zhi/N/中/，/是/N/zhi/N/P","5D/今/V/N/以/V/A/N","5B/N/乃/V/V/N/zhi/N","5C/本/MV/V/A/，/anti/V/N/N","5D/V/N/而/V/之/者/，/非/其/N/AD/也/P","5D/以/A/N/为/N/者/，/N/MV/弗/而/V/之/P","5D/故/夫/A/N/之/N/，/不/可/make/其/V/于/N/也/P","5B/今/N/乃/A/N/A/N","5D/N/V/而/A/N/V/也","5E/不/有/A/N/，/何/V/A/N/Q","5C/N/之/无/N/，/N/V/之/N","6D/以/N/V/，/like/V/N/V/N","6D/A/zhi/V/N/，/亦/like/今/zhi/V/N/，/A/夫/P","6D/A/者/V/而/V/之/，/A/者/V/而/V/之/P","6D/若/居/A/N/之/N/，/则/当/A/N/之/V/P","6B/N/V/，/V/N/V/N","6E/V/N/之/N/，/为/N/V/者/，/可以/V/矣/P","6D/V/MV/with/其/N/，/而/V/MV/V/以/N/者/，/N/也/P","6D/A/N/必/有/A/N/V/之者/、/予/可/无/N/也/P","6E/虽/V/V/A/A/，/A/A/不/同/P","6D/将/有/V/，/则/V/A/N/以/V/N/P","6D/不/V/N/，/不/V/N/，/当/以/AD/V/论/P","6D/A/则为/V/N/，/A/则为/V/N/P","6D/N/受/命/于/N/，/固/AD/然/V/于/A/N/P","6D/N/无/N/则/V/，/N/无/N/则/V/P","6D/N/A/N/A/，/则/所/V/得/其/A/P","7D/夫/A/之/N/V/N/者/，/其/所以/AD/V/者/N/也/P","7D/N/V/以/N/V/，/V/不/V/N","7C/N/N/V/N/，/A/于/N/N","7D/MV/AD/V/A/N/，/but/V/V/不/A","7E/或/V/N/V/N/，/V/N/于/N","7D/A/N/之/N/不在/N/，/在乎/A/N/之/N/也/P","7D/A/N/之/N/，/V/之/N/而/V/之/N/也/P","7D/是故/A/N/不必不如/N/，/N/不必/A/于/A/N/P","7B/有/A/N/、/A/N/、/A/N/之/N/P","8E/虽/N/A/N/A/，/所/以/V/N/，其/N/A/ye/P","8B/like/A/N/V/N/，/不/V/N/V/之/N/P","8D/何必/V/N/V/N/，/V/N/zhi/N/N/哉/P","8D/N/anti/MV/V/N/，/still/继/N/V/，/why/，/and/N/而/anti/V/N/ye/P","8C/V/N/A/A/，/V/N/A/A","8B/N/在/A/N/，/A/N/zhi/A/，/V/于/N/P","8C/A/N/AD/V/，/N/N/AD/V","8D/虽/无/N/N/zhi/V/，/亦/V/以/AD/V/A/N/P","8D/故/V/A/N/者/，/当/V/A/N/之/A/N/P","8D/N/V/于/A/N/之上/，/AD/V/于/A/N/之间/P","8C/使/其/A/N/AD/V/，/A/N/AD/V/P","9D/A/N/V/zhi/而不/V/zhi/、亦/make/A/N/er/复/V/A/N/ye/P","9B/N/MV/V/N/V/V/，/but/N/N/AD/V","9D/以/N/，/当/V/A/N/，/非/N/V/N/所/MV/AD/V/P","9C/此/N/有/A/N/A/N/，/A/N/A/N/P","9B/是/N/ye/，/N/A/N/A/，/N/A/N/A/P"]}}';
 var RoundFlip = 0; //标志现在到哪了
 var RoundControl = new Uint8Array(32); //一个数组，用密钥哈希来控制轮转的行为
 const Normal_Characters =
@@ -802,6 +802,134 @@ function RoundControlInit(key) {
   RoundControl = HashArray;
 }
 
+function shuffle(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+function avoidAdjacentDuplicates(arr) {
+  if (arr.length <= 1) return arr;
+  const newArr = [...arr];
+  let hasAdjacent = true;
+  let maxTries = newArr.length;
+
+  while (hasAdjacent && maxTries > 0) {
+    hasAdjacent = false;
+    for (let i = 0; i < newArr.length - 1; i++) {
+      if (newArr[i] === newArr[i + 1]) {
+        hasAdjacent = true;
+        // 尝试在i+2位置之后找一个可以交换的元素
+        for (let j = i + 2; j < newArr.length; j++) {
+          if (
+            newArr[j] !== newArr[i] &&
+            (j === 0 || newArr[j - 1] !== newArr[i]) &&
+            (j === newArr.length - 1 || newArr[j + 1] !== newArr[i])
+          ) {
+            [newArr[i + 1], newArr[j]] = [newArr[j], newArr[i + 1]];
+            break;
+          }
+        }
+        break;
+      }
+    }
+    maxTries--;
+  }
+  return newArr;
+}
+
+function mergeNumbers(arr, factor) {
+  // 分离小于3的数字和其他数字
+  const lessThan3 = arr.filter((num) => num < 3);
+  const rest = arr.filter((num) => num >= 3);
+
+  // 根据因子计算需要保留的小于3的数字数量
+  const preserveCount = Math.max(
+    0,
+    Math.floor((1 - factor) * lessThan3.length)
+  );
+
+  // 保留部分数字
+  const preserved = [];
+  const toMerge = [];
+
+  // 随机选择要保留的数字
+  const temp = [...lessThan3];
+  for (let i = 0; i < preserveCount; i++) {
+    const randomIndex = Math.floor(Math.random() * temp.length);
+    preserved.push(temp.splice(randomIndex, 1)[0]);
+  }
+  toMerge.push(...temp);
+
+  // 如果没有需要合并的数字，直接返回
+  if (toMerge.length === 0) {
+    return [...shuffle(rest), ...shuffle(preserved)];
+  }
+
+  // 计算需要合并的总和
+  const sum = toMerge.reduce((acc, val) => acc + val, 0);
+
+  // 计算合并后的数字数量范围
+  const minSegments = Math.ceil(sum / 9); // 最少段数
+  const maxSegments = Math.min(toMerge.length, Math.floor(sum / 3)); // 最多段数
+  let bestSegmentCount = minSegments;
+
+  // 寻找最优合并段数
+  let minVariance = Infinity;
+  for (let k = minSegments; k <= maxSegments; k++) {
+    const base = Math.floor(sum / k);
+    const remainder = sum % k;
+    const values = [];
+
+    // 生成k个数值
+    for (let i = 0; i < k; i++) {
+      values.push(i < remainder ? base + 1 : base);
+    }
+
+    // 计算方差（均匀度）
+    const mean = sum / k;
+    const variance =
+      values.reduce((acc, val) => acc + Math.pow(val - mean, 2), 0) / k;
+
+    // 更新最优解
+    if (variance < minVariance) {
+      minVariance = variance;
+      bestSegmentCount = k;
+    }
+  }
+
+  // 生成合并后的数字
+  const base = Math.floor(sum / bestSegmentCount);
+  const remainder = sum % bestSegmentCount;
+  const merged = [];
+
+  for (let i = 0; i < bestSegmentCount; i++) {
+    merged.push(i < remainder ? base + 1 : base);
+  }
+
+  // 组合结果并返回
+  return [...shuffle(rest), ...shuffle(preserved), ...merged];
+}
+
+function processArray(twoDArray, factor) {
+  return twoDArray.map((subArray) => {
+    // 检查是否需要合并
+    if (subArray.length > 6) {
+      const countLessThan3 = subArray.filter((num) => num < 3).length;
+      if (countLessThan3 / subArray.length > 0.35) {
+        subArray = mergeNumbers(subArray, factor);
+      }
+    }
+
+    // 打乱顺序
+    subArray = shuffle(subArray);
+    // 避免相邻重复
+    return avoidAdjacentDuplicates(subArray);
+  });
+}
+
 function distributeInteger(num) {
   //把文言文密文的载荷根据一定比例分成三份(一段)
   if (num <= 3) {
@@ -811,16 +939,6 @@ function distributeInteger(num) {
 
   let maxPart = Math.floor(num * 0.2); // 计算每个部分的最大值
   let remaining = num - 2 * maxPart; // 计算剩余部分
-
-  if (remaining <= 0) {
-    // 如果剩余部分小于等于 0，则调整最大值，确保每个元素都大于 0
-    maxPart = Math.floor((num - 2) / 3); // 调整 maxPart 的计算方式
-    remaining = num - 2 * maxPart;
-
-    if (remaining <= 0) {
-      return []; // 如果调整后仍然无法满足要求，则返回空数组
-    }
-  }
 
   const result = [maxPart, remaining, maxPart]; // 创建包含三个整数的数组
 
@@ -849,6 +967,7 @@ export function selectSentence(PayloadLength, RandomIndex = 0, p, l) {
   //L 强制多用逻辑句式
   //句式选择算法
   //RandomIndex 随机指数，越大，给出的句式越随机，最大100。
+  /* v8 ignore next 7 */
   if (RandomIndex > 100 || RandomIndex < 0) {
     //错误的输入。
     throw "Incorrect Random Index";
@@ -873,25 +992,16 @@ export function selectSentence(PayloadLength, RandomIndex = 0, p, l) {
 
   let DividedPayload = distributeInteger(PayloadLength); //把Payload平均分配给三个部分。
 
+  let SegmentedPayload = [new Array(), new Array(), new Array()]; //二维数组，保存分配之后的负载。
+
   let ElementResult = []; //最终要返回的语素序列
 
+  //分配负载到一个二维数组中
   for (let i = 0; i < 3; i++) {
     //第一重循环，选择Payload
 
     let Payload = DividedPayload[i];
-    let Lib = "";
 
-    switch (i) {
-      case 0:
-        Lib = "Begin";
-        break;
-      case 1:
-        Lib = "Main";
-        break;
-      case 2:
-        Lib = "End";
-        break;
-    }
     for (let a = 0; a < Payload; ) {
       //第二重循环，用算法选择句式，满足载荷
       selectRand = GetRandomIndex(101) + RandomIndex;
@@ -925,14 +1035,37 @@ export function selectSentence(PayloadLength, RandomIndex = 0, p, l) {
       } else if (selectRand > 100 && selectRand <= 200) {
         //随机选择一个，不一定是最优解
         TargetPayload = PossiblePayload[GetRandomIndex(PossiblePayload.length)];
-        PossiblePayload = PossiblePayload.filter(
-          (item) => item > TargetPayload
-        );
       }
 
+      SegmentedPayload[i].push(TargetPayload);
+      a = a + TargetPayload;
+    }
+  }
+
+  SegmentedPayload = processArray(SegmentedPayload, 1 - RandomIndex / 100);
+
+  //开始根据分配好的载荷执行组句
+  for (let i = 0; i < 3; i++) {
+    let Lib = "";
+
+    switch (i) {
+      case 0:
+        Lib = "Begin";
+        break;
+      case 1:
+        Lib = "Main";
+        break;
+      case 2:
+        Lib = "End";
+        break;
+    }
+
+    for (let a = 0; a < SegmentedPayload[i].length; a++) {
       let PossibleSentences = []; // 所有挑选出来的可能句式，选择时任选其一。
       let PossiblePianSentences = []; // 所有可能的骈文句式。
       let PossibleLogicSentences = []; // 所有可能的逻辑句式
+
+      let TargetPayload = SegmentedPayload[i][a]; //目标负载
       for (let c = 0; c < Map_Obj["Sentences"][Lib].length; c++) {
         //开始选择句式
         let Sentence = Map_Obj["Sentences"][Lib][c].split("/"); //Sentence是列表，按照/分割的句式
@@ -1002,12 +1135,10 @@ export function selectSentence(PayloadLength, RandomIndex = 0, p, l) {
           }
         }
       }
-
       ElementResult.push(TargetSentence);
-
-      a = a + TargetPayload;
     }
   }
+
   return ElementResult;
 }
 
@@ -1072,6 +1203,8 @@ export function enMap(input, key, q, r, p, l) {
   let LastQuoteMark = false; //为避免连续冒号和引号，设立状态变量。
   let LastQuote = 0; //下引号的状态(上引号的距离)
 
+  let NoAutoSymbol = false; //指定某一轮不自动添加标点符号
+
   RoundKey(); //首次对表前，先转动一次转轮
   for (let j = 0; j < Sentence.length; j++) {
     hasSpecialEndSymbol = false;
@@ -1130,8 +1263,10 @@ export function enMap(input, key, q, r, p, l) {
           LastQuote = 0;
           CommaCounter = 0;
         } else if (LastQuote == 1) {
+          //进入此分支，意味着不会再次添加逗号
           LastQuote = 0; //如果两个连续冒号句子，那么会在下一个句子关闭引号，而非本句
           TempStr1 = TempStr1 + "，"; //加上逗号
+          NoAutoSymbol = true;
           CommaCounter++;
         }
         //上个块是冒号句，这句话就不增加冒号(禁止连续两个冒号)
@@ -1165,6 +1300,7 @@ export function enMap(input, key, q, r, p, l) {
         Finished = true;
       }
     }
+    //这里是句式和句式的外层控制循环
     if (Finished) {
       //如果已完成，检查最后一个句式后是否有特殊符号，没有的话，自动添加句号
       if (q && !hasSpecialEndSymbol) {
@@ -1176,9 +1312,10 @@ export function enMap(input, key, q, r, p, l) {
         LastQuote = 0;
         LastQuoteMark = false;
       }
+      NoAutoSymbol = false;
       break;
     } else {
-      if (q && !hasSpecialEndSymbol) {
+      if (q && !hasSpecialEndSymbol && !NoAutoSymbol) {
         //如果连续出现三个以上的逗号，那么自动加上一个句号
         let TestCommaCount = CommaCounter + (CommaNumInSentence + 1); //计算本句添加后可能的最大逗号数量
         if (CommaCounter < 3 || j == Sentence.length - 2) {
@@ -1213,6 +1350,9 @@ export function enMap(input, key, q, r, p, l) {
       }
       if (hasSpecialEndSymbol) {
         CommaCounter = 0;
+      }
+      if (NoAutoSymbol) {
+        NoAutoSymbol = false;
       }
     }
   }
@@ -1275,6 +1415,7 @@ export function deMap(input, key) {
 
     findtemp = findOriginText(temp); //查找第一个字符的原文
     if (findtemp == NULL_STR) {
+      /* v8 ignore next 2 */
       throw "Bad Input. Try force encrypt if intended.";
     }
     TempStr1 = TempStr1 + findtemp; //把找到的原文增加到字符串上
@@ -1286,6 +1427,7 @@ export function deMap(input, key) {
   let TempStr2Int = new Uint8Array();
   let RandomBytes = new Array(2);
   if (!Base64.isValid(TempStr1)) {
+    /* v8 ignore next 3 */
     //检查Base64是否合法，如果不合法，那么就没有必要继续处理下去
     throw "Error Decoding. Bad Input or Incorrect Key.";
   }
@@ -1305,23 +1447,16 @@ export function deMap(input, key) {
     TempStr2Int = GZIP_DECOMPRESS(TempStr2Int);
     TempStr2Int = UNISHOX_DECOMPRESS(TempStr2Int);
   } catch (err) {
+    /* v8 ignore next 3 */
     //解压缩/解密失败，丢出错误。
     throw "Error Decoding. Bad Input or Incorrect Key.";
   }
 
   if (!CheckLuhnBit(TempStr2Int)) {
+    /* v8 ignore next 3 */
     //检查密文的校验位是否匹配
-    if (
-      TempStr2Int.at(TempStr2Int.byteLength - 1) == 2 &&
-      TempStr2Int.at(TempStr2Int.byteLength - 2) == 2 &&
-      TempStr2Int.at(TempStr2Int.byteLength - 3) == 2
-    ) {
-      //这个兼容性判断将会在未来被移除。
-      TempStr2Int = TempStr2Int.subarray(0, TempStr2Int.byteLength - 3);
-    } else {
-      //校验不通过，则丢出错误。
-      throw "Error Decrypting. Checksum Mismatch.";
-    }
+    //校验不通过，则丢出错误。
+    throw "Error Decrypting. Checksum Mismatch.";
   } else {
     //校验通过，则移除校验位。
     TempStr2Int = TempStr2Int.subarray(0, TempStr2Int.byteLength - 1);
@@ -1456,6 +1591,7 @@ export function getCryptText(text, type) {
       }
     }
   }
+  /* v8 ignore next 2 */
   return NULL_STR;
 }
 
@@ -1473,6 +1609,7 @@ export function findOriginText(text) {
   if (res) {
     return res;
   } else {
+    /* v8 ignore next 2 */
     return NULL_STR;
   }
 }
