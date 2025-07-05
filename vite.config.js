@@ -15,6 +15,7 @@ export default defineConfig({
         "dist",
         "JavyInputAppendix.js",
         "src/javascript/unishox2.js",
+        "docs",
       ],
     },
   },
