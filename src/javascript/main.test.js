@@ -55,31 +55,31 @@ test("加/解密测试", { timeout: 15000 }, () => {
   let TestTemp3 = TestString;
 
   //将随机字符串用仿真加密循环加/解密6次，判断一致性和中途是否出错。
-  for (let i = 0; i <= 5; i++) {
+  for (let i = 0; i <= 6; i++) {
     Abra.Input_Next(
       TestTemp,
       "ENCRYPT",
       "ABRACADABRA",
       i % 2 == 0,
-      100,
+      50,
       i % 2 == 0,
       i % 2 != 0
     );
     TestTemp = Abra.Output();
   }
 
-  for (let i = 0; i <= 5; i++) {
+  for (let i = 0; i <= 6; i++) {
     Abra.Input_Next(TestTemp, "DECRYPT", "ABRACADABRA");
     TestTemp = Abra.Output();
   }
 
   //将随机字符串用传统加密循环加/解密6次，判断一致性和中途是否出错。
-  for (let i = 0; i <= 5; i++) {
+  for (let i = 0; i <= 6; i++) {
     Abra.Input(TestTemp2, "ENCRYPT", "ABRACADABRA", true);
     TestTemp2 = Abra.Output();
   }
 
-  for (let i = 0; i <= 5; i++) {
+  for (let i = 0; i <= 6; i++) {
     Abra.Input(TestTemp2, "DECRYPT", "ABRACADABRA");
     TestTemp2 = Abra.Output();
   }
