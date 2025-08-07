@@ -1,13 +1,13 @@
 # Abracadabra 魔曰
 
 <div align=center>
-<img src="https://github.com/user-attachments/assets/4c6544fe-166b-4572-acd6-cd1d6d3b4ca0" width="20%" height="20%">
+<img src="https://github.com/user-attachments/assets/4c6544fe-166b-4572-acd6-cd1d6d3b4ca0" width="20%">
 </div>
 
 <div align=center>
 <h3>Abracadabra 魔曰</h3>
 
-<h3>下一代文本加密工具</h3>
+<h3>熔古铸今，韵入密语</h3>
 </div>
 
 <div align=center>
@@ -18,6 +18,7 @@
 
 [<img src="https://img.shields.io/github/v/release/SheepChef/Abracadabra?color=00aaff"/>](https://github.com/SheepChef/Abracadabra/releases/latest)
 [<img src="https://img.shields.io/github/actions/workflow/status/SheepChef/Abracadabra/node.js.yml?branch=main&label=%E6%9E%84%E5%BB%BA"/>](https://github.com/SheepChef/Abracadabra/actions/workflows/node.js.yml)
+[<img src="https://img.shields.io/codecov/c/github/SheepChef/Abracadabra?label=%E8%A6%86%E7%9B%96%E7%8E%87"/>](https://github.com/SheepChef/Abracadabra/actions/workflows/coverage.yml)
 <a href="https://hellogithub.com/repository/6d67b7be3ccc43419924dbe40b31e937" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=6d67b7be3ccc43419924dbe40b31e937&claim_uid=cQrPYdpGNg4ACK6&theme=small" alt="Featured｜HelloGitHub" /></a>
 ![GitHub Repo stars](https://img.shields.io/github/stars/SheepChef/Abracadabra)
 
@@ -25,22 +26,22 @@
 
 <div align=center>
 
-[<img src="https://img.shields.io/badge/立刻使用-ffd91c?logo=cloudflarepages&style=for-the-badge&logoColor=000000" width="170"/>](https://abra.halu.ca/)
+[<img src="https://img.shields.io/badge/立刻使用-ffd91c?logo=cloudflarepages&style=for-the-badge&logoColor=000000" width="170"/>](https://abra.js.org/)
 [<img src="https://img.shields.io/badge/下载插件-8a54ff?logo=googlechrome&style=for-the-badge&logoColor=ffffff" width="170" />](#浏览器插件)
 
+[<img src="https://img.shields.io/badge/项目主页-54ffac?logo=javascript&style=for-the-badge&logoColor=000000" width="117" />](https://abracadabra.js.org)
 [<img src="https://img.shields.io/badge/前端源码仓库-9a10b5?style=for-the-badge" width="120" />](https://github.com/SheepChef/Abracadabra_demo)
-[<img src="https://img.shields.io/badge/贡献压缩字典-54ffac?style=for-the-badge" width="120" />](https://forms.gle/BBD5McqU6Bws6hiw6)
 [<img src="https://img.shields.io/badge/更新频道-0970ba?logo=telegram&style=for-the-badge&logoColor=ffffff" width="118" />](https://t.me/abracadabra_cn)
 
 </div>
 
-**Abracadabra(魔曰)** 是一个安全高效的文本加密工具，对任意给定数据进行加密处理。  
-完全开源，易于部署，易于使用。
+**Abracadabra(魔曰)** 是开源，安全，高效的文本加密工具。  
+将数据加密为汉字构成的文言文，完全开源，易于部署，易于使用。
 
 ---
 
-✨ 查阅 [**快速使用**](#快速使用) 一节，以开始使用/部署本项目。  
-✨ 查阅 [**细节和使用指南**](https://github.com/SheepChef/Abracadabra/blob/main/USAGE.md) 以深入了解本项目的细节。  
+✨ 查阅 [**快速使用**](#快速使用) 一节，快速开始使用/部署本项目。  
+✨ 查阅 [**项目主页**](https://abracadabra.js.org)，了解本项目的技术特点和细节。
 
 👉 查阅 [**开放源代码许可**](#开放源代码许可) 一节，了解本项目的依赖项和许可证。
 
@@ -48,11 +49,13 @@
 
 - **仿真，使用文言语法句式**。
 - 开源，所有源代码公开可查。
-- 随机，加密结果具有随机性。
-- 安全，AES256 + 三重转轮混淆。
-- 双模式，同时支持仿真加密和传统加密。
+- 安全，完全离线的AES加密。
+- 可靠，代码经过严格单元测试。
+- 便捷，易于本地部署和使用。
 
-###  **古文仿真：崭新的加密方案**
+---
+
+###  **熔古铸今：文言文仿真加密**
 
 > 鹏彰于物，不必奏也。捷天谨走，城光益添，和人弥任，铃夜皆写，呈雨以登铃。
 >
@@ -60,7 +63,7 @@
 >
 
 构造高仿真文言文，**参考《古文观止》《经史百家杂钞》《古文辞类纂》等古代典籍。**  
-加密强度不变，但引入更复杂的组句/语法选择机制，将密码学与中国古典语言学相融合。
+标准AES256加密，引入更复杂的组句/语法选择机制，将密码和中国古典文言文相融合。
 
 密文高度随机，支持用户自定义随机性和文本风格偏好，打造前所未有的跨文化数字加密方案。
 
@@ -68,41 +71,7 @@
 
 ## 快速使用
 
-请查阅 [**部署指南**](DEPLOY.md) 来了解详细使用方法。
-
-要部署前端网页，请查阅 Release 和前端源代码仓库。
-
-### JavaScript
-
-使用 npm 下载 Abracadabra 库。
-
-你也可以前往 Release 页面直接下载Js文件。
-
-```shell
-npm install abracadabra-cn
-```
-
-然后，在项目中引入库文件
-
-```javascript
-import { Abracadabra } from "abracadabra-cn";
-```
-
-### WebAssembly
-
-前往 Release 下载编译好的 WebAssembly 文件。
-
-然后，使用 [**wasmtime**](https://github.com/bytecodealliance/wasmtime) 来调用它。
-
-```shell
-
-echo '{"method":"NEXT","mode":"ENCRYPT","inputType":"TEXT","outputType":"TEXT","input":"愿青空的祝福，与我的羽翼同在","key":"ABRACADABRA","q":true,"r":50,"p":false,"l":false}' | wasmtime abracadabra-cn.wasm
-
-```
-
-本项目的 WebAssembly 模块使用 [**Javy**](https://github.com/bytecodealliance/javy) 编译而来，方便在 C++、Rust、Go 等语言中调用，**不推荐**在类似 Python、 Java、Node.js 的解释器中调用。
-
-要调用本 WebAssembly 模块，需要使用尚在预览状态的 [**WASI**](https://github.com/WebAssembly/WASI)，目前仅有 wasmtime 提供了最完整的 WASI 支持，但它在各个语言的实现并不一致，具体请见 [**部署指南**](DEPLOY.md)。
+请查阅 [**项目主页**](https://abracadabra.js.org) ，详细了解使用/部署方法。
 
 ### 静态页面 / 前端源码
 
@@ -112,7 +81,7 @@ echo '{"method":"NEXT","mode":"ENCRYPT","inputType":"TEXT","outputType":"TEXT","
 
 浏览器插件的源码同样在前端源代码仓库，位于 crx 分支。
 
-[<img src="https://img.shields.io/badge/静态页面-ffd91c?logo=cloudflarepages&style=for-the-badge&logoColor=000000" width="130"/>](https://abra.halu.ca/)
+[<img src="https://img.shields.io/badge/静态页面-ffd91c?logo=cloudflarepages&style=for-the-badge&logoColor=000000" width="130"/>](https://abra.js.org/)
 [<img src="https://img.shields.io/badge/前端源码-9a10b5?style=for-the-badge" width="103" />](https://github.com/SheepChef/Abracadabra_demo)
 
 ### 浏览器插件
@@ -143,7 +112,7 @@ APK文件可以 [**在 Release 中下载**](https://github.com/SheepChef/Abracad
 
 ## 细节概要
 
-请查阅 [**细节和使用指南**](https://github.com/SheepChef/Abracadabra/blob/main/USAGE.md) 了解更多。
+请查阅 [**项目主页**](https://abracadabra.js.org) 了解更多。
 
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/SheepChef/Abracadabra)
 
@@ -163,7 +132,7 @@ Abracadabra 以最常用的 3000 个汉字为密本，对大小写拉丁字母�
 
 映射表公开可查，查阅 [**映射表(传统)**](https://github.com/SheepChef/Abracadabra/blob/main/src/javascript/mapping.json) 或者 [**映射表(仿真)**](https://github.com/SheepChef/Abracadabra/blob/main/src/javascript/mapping_next.json) 以了解密本的全貌。
 
-### AES-256-CTR
+### AES 加密
 
 核心安全性由久经考验的 AES 加密算法提供，采用无填充的AES-256-CTR，节省密文长度。
 
@@ -179,30 +148,29 @@ AES 加密密钥和转轮密钥是同一个，均采用哈希值。
 
 数字/符号，字母分别拥有一套转轮，即总共六个转轮，改变密钥相当于更换一套完全不同的转轮。
 
-转轮显著增加了 Base64 密文的安全性，查阅 [**Issue#30**](https://github.com/SheepChef/Abracadabra/issues/30) 来了解转轮的详细运行机制。
+转轮显著增加了 Base64 密文的安全性，查阅 [**项目主页**](https://abracadabra.js.org/document/enc.html#三重转轮混淆) 来了解转轮的详细运行机制。
 
 ### 压缩
 
 为了削减密文的长度，每次加密前会对数据进行智能压缩。  
 
 针对短文本，采用专门为短文本优化的 Unishox2 压缩算法。  
-一般数据则采用GZIP。
+一般数据(>1KB)则采用GZIP。
 
 压缩后会执行效率验证，如果出现无效压缩，则自动回落到原始数据。
 
-### 随机性
-
-在映射为汉字的时候，每个字母/数字/符号均有多种可能性，完全随机选择。
-
-这显著增强了密文的安全性，使得各种攻击难以奏效。
-
-## 比较
+## 密文对比
 
 ```
 明文：Abracadabra
 
-魔曰(仿真)：铃有将报，局有竟然。故探盈声者，当度青莺之静云。非木也，琴与树换，振棋以至雁。
-魔曰(传统)：困句夏之全玚凪斋或骏琅咨兆咩谜理金说宙银歌舒
+魔曰(仿真)：不应报也。树将棋之，书曰：“天水探火，临于云楼” ，夜乃写定绸之莺，指之不为火，换之不为苗。
+
+魔曰(仿真)：流霞以停空，局返，作文换雪。不可彰也，火之无灯，璃说之文，智鸢湛事。
+
+魔曰(传统)：桨捷欤网炯棠囍设声沢仅氖城织把夹短阐瑞玖祉作
+
+<-- ↓↓对比项目↓↓ -->
 
 熊曰：呋食性類啽家現出爾常肉嘿達嗷很
 佛曰：諸南隸僧南降南吽諸陀南摩隸南僧南缽南薩咤南心彌嚴迦聞婆吽願南眾南色南兜南眾南如婆如南
@@ -218,7 +186,11 @@ AES 加密密钥和转轮密钥是同一个，均采用哈希值。
 
 感谢 [**中国哲学书电子化计划**](http://ctext.org/zhs) 提供高质量的古籍参考资料。
 
+感谢 [**JS.ORG**](https://js.org) 为本项目提供域名支持。
+
 感谢 [**@Amlkiller**](https://github.com/amlkiller) 为本项目提供十分有价值的反馈和建议。
+
+感谢 **熊曰(与熊论道)、佛曰、兽音译者** 为本项目提供灵感和参考。
 
 感谢贡献 PR 和参与测试的其他所有人，以及**正在使用本项目的您**。
 

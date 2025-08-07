@@ -15,6 +15,10 @@ export default defineConfig({
         "dist",
         "JavyInputAppendix.js",
         "src/javascript/unishox2.js",
+        "docs",
+        "src/javascript/main.d.ts",
+        "src/javascript/utils.js",
+        "src/javascript/utils_next.js",
       ],
     },
   },
@@ -49,6 +53,14 @@ export default defineConfig({
         //创建全新文件
         const newFilePath = path.join(outDir, "abracadabra-cn-javy.js");
         fs.writeFileSync(newFilePath, `${TargetContent}${appendContent}`);
+
+        // 复制 TypeScript 声明文件到输出目录
+        const dtsSourcePath = path.join(
+          configStore.root,
+          "src/javascript/main.d.ts"
+        );
+        const dtsTargetPath = path.join(outDir, "abracadabra-cn.d.ts");
+        fs.copyFileSync(dtsSourcePath, dtsTargetPath);
       },
     },
   ],
